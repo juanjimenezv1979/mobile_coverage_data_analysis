@@ -117,7 +117,7 @@ def page_mapa_calidad_conectividad():
                     color = '#00FF00'  # Verde para Alto
             else:
                 # Si el municipio no está en el DataFrame, asignar un color por defecto
-                color = '#FF9999'  # rosa para municipios no encontrados
+                color = '#FFFFFF'  # blanco para municipios no encontrados
             
             # Retornar el estilo
             return {
